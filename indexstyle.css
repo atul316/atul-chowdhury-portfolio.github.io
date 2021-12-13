@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./back22.jpg);
+    background-repeat: repeat-y;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    color: cyan;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    font-size: large;
+    background-image: url(./back15.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: gold;
+    padding-inline: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+main{
+    width: 80vw;
+    margin-inline: auto;
+}
+
+.about{
+    display: flex;
+    font-size: 22px;
+    gap: 4rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: cyan;
+}
+
+
+.heading span{
+    border-bottom: 1px solid gold;
+}
+.about img {
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 3px 20px rgb(255, 255, 255);
+    padding: 2px;
+}
+.Skills-container{
+    display: flex;
+    font-size: 20px;
+    gap: 2rem;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 15px rgb(41, 158, 194);
+    padding: 2px;
+}
+.Project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.Project-card {
+    width: 500px;
+    box-shadow: 0 3px 10px rgb(1, 101, 131);
+    padding: 10px;
+}
+.Project-card img {
+    height: 300px;
+    width: 500px;
+}
+nav a {
+    text-decoration: none;
+    color: gold;
+}
+.Contact-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.Contact-card {
+    width: 500px;
+    box-shadow: 0 1px 10px rgb(3, 59, 77);
+    padding: 15px;
+}
+.Contact-card img {
+    height: 50px;
+    width: 50px;
+}
+section a{
+    text-decoration: none;
+    color: rgb(216, 74, 128);
+}
